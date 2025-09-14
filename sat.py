@@ -1,3 +1,14 @@
+# import os
+# import streamlit as st
+# import pandas as pd
+# import smtplib
+# from email.mime.text import MIMEText
+# from email.mime.multipart import MIMEMultipart
+# from email.mime.base import MIMEBase
+# from email import encoders
+# from google import genai
+# from google.genai import types
+
 import os
 import streamlit as st
 import pandas as pd
@@ -6,9 +17,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
-from google import genai
-from google.genai import types
-
+import google.generativeai as genai
+from google.generativeai import types
 st.title("Invitation for Satsang - Email Sender")
 
 # ===== Generate Invitation Function =====
